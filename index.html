@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  #a1,#a2,#a3,#a4,#a5,#a6,#a9,#a14,#a15,#a16,#a17,#a18
+{
+    color:darkgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#inp1,#inp2,#inp3,#inp4,#inp5,#inp14,#inp17,#inp15
+{
+    /* border-color:white; */
+    border-color: rgb(202, 222, 240);
+    border-radius:5px;
+}
+#s1
+{
+    height: 470px;
+    width: 420px;
+    background-color:rgb(123, 139, 172);
+    margin-left: 7.35cm;
+    
+}
+#s2
+{
+    height: 437px;
+    width: 390px;
+    background-color:rgb(218, 226, 234);
+    margin-left:7.76cm;
+    position: relative;
+    bottom:453px;
+    border-radius: 10px;
+}
+#hdng
+{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  margin-left: 2.75cm;
+  position: relative;
+  top:-55px
+}
+#r1
+{
+  background-color: rgb(193, 201, 201);
+  height: 1.2cm;
+  width: 390px;
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px;
+}
+#a1
+{
+    margin-left:0.4cm;
+    position:relative;
+    top: -65px;
+}
+#inp1
+{
+    position: relative;
+    top: -84px;
+    left: 14px;
+    width: 4.2cm;
+}
+#a2
+{
+    margin-left:5.4cm;
+    position:relative;
+    top: -145px;
+}
+#inp2
+{
+    /* border-color:white; */
+    position: relative;
+    top: -164px;
+    left: 204px;
+    width: 4.2cm;
+}
+#a3
+{
+    margin-left:0.4cm;
+    position:relative;
+    top: -177px;
+}
+#inp3
+{
+    /* border-color:white; */
+    position: relative;
+    top: -195px;
+    left: 14px;
+    width: 9.2cm;
+}
+#a4
+{
+    margin-left:0.4cm;
+    position:relative;
+    top: -207.3px;
+}
+#inp4
+{
+    position: relative;
+    top: -224px;
+    left: 14px;
+    width: 4.2cm;
+}
+#a5
+{
+    margin-left:5.4cm;
+    position:relative;
+    top: -287px;
+}
+#inp5
+{
+    /* border-color:white; */
+    position: relative;
+    top: -304px;
+    left: 204px;
+    width: 4.2cm;
+}
+#a6
+{
+    position: relative;
+    top: -318px;
+    left: 14px;
+    width: 4.2cm;
+}
+#a7
+{
+    position: relative;
+    left: 7px;
+    font-size:smaller;
+    position: relative;
+    top: -340px;
+}
+#a8
+{
+    position: relative;
+    left: 5px;
+    font-size: smaller;
+    position: relative;
+    top: -340px;
+}
+#inp6
+{
+    position: relative;
+    height: 9px;
+    width: 10px;
+    position: relative;
+    top: -340px;
+    left: 10px;
+}
+#inp7
+{
+    position: relative;
+    height: 9px;
+    width: 10px;
+    top: -340px;
+    left: 9px;
+}
+#a9
+{
+    position: relative;
+    top: -394px;
+    left: 147px;
+}
+#a10
+{
+    position: relative;
+    left: 3.85cm;
+    font-size:smaller;
+    position: relative;
+    top: -416px;
+}
+#a11
+{
+    position: relative;
+    left: 3.85cm;
+    font-size:small;
+    position: relative;
+    top: -416px;
+}
+#a12
+{
+    position: relative;
+    left: 3.85cm;
+    font-size:small;
+    position: relative;
+    top: -416px;
+}
+#a13
+{
+    position: relative;
+    left: 3.85cm;
+    font-size:small;
+    position: relative;
+    top: -416px;
+}
+#inp8,#inp9,#inp10,#inp11
+{
+    position: relative;
+    left: 3.9cm;
+    font-size:small;
+    position: relative;
+    top: -416px;
+    height: 10px;
+    width: 10px;
+    
+}
+#a14
+{
+    position: relative;
+    top: -426px;
+    left: 0.39cm;
+    border-radius:0%;
+}
+#inp12
+{
+    width: 3cm;
+    position: relative;
+    top: -445px;
+    left: 0.4cm;
+    border-radius: 5px;
+    border-color: rgb(131, 184, 232);
+}
+#a15
+{
+    position: relative;
+    left:4.6cm;
+    top:-13.3cm;
+}
+#inp13
+{
+    position: relative;
+    left: 4.5cm;
+    top:-13.8cm;
+    color: darkgreen;
+}
+#a16
+{
+   position: relative;
+   top:-14.2cm; 
+   left: 0.4cm;
+}
+#inp14
+{
+    position:relative;
+    top:-14.65cm;
+    left:0.45cm;
+}
+#a17
+{
+    position: relative;
+    left:6cm;
+    top:-16.3cm;
+}
+#inp15
+{
+    position: relative;
+    height: 20px;
+    width: 3.5cm;
+    left:6cm;
+    top:-16.78cm;
+}
+#a18
+{
+    position: relative;
+    left: 0.5cm;
+    top:-17.2cm;
+}
+#inp16
+{
+    position: relative;
+    top:-17.65cm;
+    left: 0.5cm;
+    border-radius: 5px;
+    border-color: rgb(164, 203, 241);
+}
+#inp17
+{
+    position: relative;
+    left: 7.5cm;
+    top: -17.5cm;
+    background-color: darkgreen;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.slider::-webkit-slider-thumb{
+  appearance: none;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider {
+  appearance: none;
+  width: 40%;
+  height: 15px;
+  border-radius: 5px;
+  background: #e0cfcf;
+}
+.ln
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#inp17:hover 
+{
+   background-color: rgb(30, 149, 30);
+}
+#g1
+{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.r1:hover
+{
+   background-color: rgb(222, 234, 235);
+}
+</style>
+<body>
+  <nav id="s1"></nav>
+  <nav id="s2">
+  <nav id="r1"></nav>
+  <h2 id="hdng">Create Account</h2>
+  <h5 id="a1">First name*</h5>
+  <input type="text" id="inp1" placeholder="enter your first name" class="r1">
+  <h5 id="a2">Last name</h5>
+  <input type="text" id="inp2" placeholder="enter your last name" class="r1">
+  <h5 id="a3">Email*</h5>
+  <input type="email" id="inp3" placeholder="enter your email" class="r1">
+  <h5 id="a4">Password*</h5>
+  <input type="password" id="inp4" placeholder="enter your password" class="r1">
+  <h5 id="a5">Confirm password*</h5>
+  <input type="password" id="inp5" placeholder="enter the password again" class="r1">
+  <h5 id="a6">Gender</h5>
+  <input type="radio" id="inp6" name="gen">
+  <label for="inp6" id="a7">Male</label>
+  <input type="radio" id="inp7" name="gen">
+  <label for="inp7" id="a8">Female</label>
+  <h5 id="a9">Hobbies</h5>
+  <input type="checkbox" id="inp8">
+  <label for="inp8" id="a10">Music</label>
+  <input type="checkbox" id="inp9">
+  <label for="inp9" id="a11">Sports</label>
+  <input type="checkbox" id="inp10">
+  <label for="inp10" id="a12">Travel</label>
+  <input type="checkbox" id="inp11">
+  <label for="inp12" id="a13">Movies</label>
+  <h5 id="a14">Source of Income</h5>
+  <select name="sr1" id="inp12" class="r1">
+    <option value="q0" id="g1">choose</option>
+    <option value="q1" class="ln">Employed</option>
+    <option value="q2" class="ln">Business</option>
+    <option value="q3" class="ln">Student</option>
+  </select>
+  <h5 id="a15">Income</h5>
+   <input type="range" id="inp13" value="50" min="0" max="20" class="slider">
+  <h5 id="a16">Upload profile picture</h5>
+  <input type="file" id="inp14">
+  <h5 id="a17">Age</h5>
+  <input type="number" id="inp15" placeholder="age" class="r1">
+  <h5 id="a18">Bio</h5>
+  <textarea id="inp16" cols="45" rows="2" class="r1"></textarea>
+  <input type="submit" value="Create" id="inp17">
+</body>
+</html>
